@@ -67,7 +67,9 @@
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <!-- <div class="btn-wrapper"> -->
-          <button type="button" class="main-btn">Order Service</button>
+          <button data-open-modal type="button" class="main-btn">
+            Order Service
+          </button>
           <!-- </div> -->
         </div>
       </section>
@@ -447,5 +449,17 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal Window -->
+    <div class="backdrop" data-backdrop>
+      <div class="modal">
+        <p>Soon...</p>
+        <button type="button" data-close-modal class="modal-close-btn">
+          &times;
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
