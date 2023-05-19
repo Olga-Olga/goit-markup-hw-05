@@ -833,7 +833,8 @@ align-items: center; */
   overflow: hidden;
 }
 
-.projects-list-item:hover .sub-menu {
+.projects-list-item:hover .sub-menu,
+.projects-list-item:focus .sub-menu {
   opacity: 1;
   height: 100%;
   width: 100px;
